@@ -34,7 +34,7 @@ const projects = [
         description: "It is a modern, Pinterest-like image sharing platform where users can upload photos, create boards, explore pins, engage through likes, saves and comments — built with a scalable architecture and real-time database updates.",
         image: "/projects/project1.jpg",
         tags: ["React","Express.js","Node.js","mongoDB"],
-        demoUrl: "https://github.com/shOumik-saha/LAMAPIN",
+        demoUrl: "https://lamapin-wheat.vercel.app/",
         githubUrl: "https://github.com/shOumik-saha/LAMAPIN",
     },
     {
