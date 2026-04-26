@@ -43,7 +43,7 @@ const projects = [
         description: "I built a modern, high-performance social media web application using the latest web technologies.The platform allows users to create accounts, edit profiles, follow other users, publish posts, like posts, and interact with a smooth, real-time UI.",
         image: "/projects/project2.jpg",
         tags: ["Next.js","Prisma ORM","TailwindCSS","NeonDB"],
-        demoUrl: "https://github.com/shOumik-saha/The-Multiverse",
+        demoUrl: "https://the-multiverse-one.vercel.app/",
         githubUrl: "https://github.com/shOumik-saha/The-Multiverse",
     },
     {
