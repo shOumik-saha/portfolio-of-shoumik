@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Code, Database, ShieldCheck } from "lucide-react";
 
 
 export const AboutSection = () => {
@@ -10,25 +10,32 @@ export const AboutSection = () => {
     </h2>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">Passionate Web Developer & Creator</h3>
+            <h3 className="text-2xl font-semibold">Research and technical background</h3>
             <p className="text-muted-foreground">
-                I specialize in creating responsive,accessible 
-                and performant Webapplications using modern technologies.
+                I work across responsible AI and software systems, with experience in
+                privacy-preserving governance design, explainable AI, database benchmarking,
+                and full-stack application development.
             </p>
             <p className="text-muted-foreground">
-                I'm Passionate about creating elegant solutions to complex
-                problems, and I'm constantly learning new technologies and
-                techniques to stay at the forefront of the ever-evolving Web
-                landscape.
+                My current research interests include trustworthy intelligent systems,
+                human-in-the-loop methods, and empirical evaluation of software infrastructure.
+                I'm Passionate about creating elegant solutions to complex problems, and I'm constantly learning new technologies and techniques to stay at the forefront of the ever-evolving Web landscape.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                 <a href="#contact" className="cosmic-button">{" "}Get In Touch</a>
                 <a
-                 href="/Shoumik-Resume.pdf"
+                 href="/Shoumik_Academic_CV.pdf"
                  download
                  className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                  >
-                 Download CV
+                 Download Academic CV
+                 </a>
+                <a
+                 href="/Shoumik_Professional_CV.pdf"
+                 download
+                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                 >
+                 Download Professional CV
                  </a>
             </div>
         </div>
@@ -40,10 +47,9 @@ export const AboutSection = () => {
                     <Code className="h-6 w-6 text-primary" />
                     </div>
                     <div className="text-left">
-                        <h4 className="font-semibold text-lg">Web Development</h4>
+                        <h4 className="font-semibold text-lg">Software systems</h4>
                         <p className="text-muted-foreground">
-                            creating responsive websites and web applications with
-                            modern frameworks.
+                            Full-stack implementation, API integration, authentication, and deployment workflows.
                         </p>
                     </div>
                 </div>
@@ -51,12 +57,12 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
                 <div className="flex items-start gap-4">
                     <div className="p-3 rounded-full bg-primary/10">
-                    <User className="h-6 w-6 text-primary" />
+                    <ShieldCheck className="h-6 w-6 text-primary" />
                     </div>
                     <div className="text-left">
-                        <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                        <h4 className="font-semibold text-lg">Responsible AI</h4>
                         <p className="text-muted-foreground">
-                            designing intutive user interfaces and seamless user experiences.
+                            Privacy-aware governance, explainability, auditing, and access-control design.
                         </p>
                     </div>
                 </div>
@@ -64,12 +70,12 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
                 <div className="flex items-start gap-4">
                     <div className="p-3 rounded-full bg-primary/10">
-                    <Briefcase className="h-6 w-6 text-primary" />
+                    <Database className="h-6 w-6 text-primary" />
                     </div>
                     <div className="text-left">
-                        <h4 className="font-semibold text-lg">Project Management</h4>
+                        <h4 className="font-semibold text-lg">Empirical evaluation</h4>
                         <p className="text-muted-foreground">
-                            Leading projects from conception to completion.
+                            Reproducible, multi-dimensional comparison of database systems.
                         </p>
                     </div>
                 </div>
