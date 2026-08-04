@@ -8,8 +8,11 @@ import { Menu, X } from "lucide-react";
 const navItems = [
     {name: "Home", href: "#hero"},
     {name: "About", href: "#about"},
-    {name: "Skills", href: "skills"},
+    {name: "Skills", href: "#skills"},
     {name: "Projects", href: "#projects"},
+    {name: "Research", href: "#research"},
+    {name: "Achievements", href: "#achievements"},
+    {name: "Activities", href: "#activities"},
     {name: "Certificates", href: "#certificates"},
     {name: "Contact", href: "#contact"},
 ]
@@ -34,9 +37,7 @@ export const Navbar = () => {
     >
         <div className="container flex items-center justify-between">
         <a className="text-xl font-bold text-primary flex items-center" href="#hero">
-            <span className="relative z-10">
-                <span className="text-glow text-foreground">Shoumik Saha</span> Portfolio
-            </span>
+            <span className="relative z-10 text-foreground">Shoumik Saha</span>
         </a>
 
         {/* desktop nav */}

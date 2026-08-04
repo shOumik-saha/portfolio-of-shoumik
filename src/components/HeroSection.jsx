@@ -23,17 +23,14 @@ export const HeroSection = () => {
                     <span className="text-primary opacity-0 animate-fade-in-delay-1">{" "}Shoumik</span> 
                     <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">{" "}Saha</span>
                 </h1>
-                <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    I'm thrilled to leverage my academic knowledge and practical skills
-                     in the dynamic field of software development. I'm a results-driven 
-                     tech professional with a strong foundation in software development and
-                      data analysis. I specialize in designing and developing efficient, 
-                      user-centric software solutions, leveraging data to drive product decisions, 
-                      optimize processes, and support strategic growth.
+                <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+                    My work spans privacy-aware AI systems, empirical software evaluation,
+                    and full-stack development. I am interested in research on responsible AI,
+                    trustworthy computing, and human-centered intelligent systems.
                 </p>
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-                    <a href="#projects" className="cosmic-button">
-                        View My Work
+                    <a href="#research" className="cosmic-button">
+                        View Research
                     </a>
                 </div>
             </div>
